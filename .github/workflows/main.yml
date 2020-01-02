@@ -1,1 +1,4 @@
 name: Push to Main
+
+on:
+  pu
