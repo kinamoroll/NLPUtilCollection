@@ -2,4 +2,5 @@ name: Push to Main
 
 on:
   push:
-    branches
+    branches:
+      - main
