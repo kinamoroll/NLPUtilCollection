@@ -5,4 +5,5 @@ on:
     branches:
       - main
     paths:
-      - ".github/workflows/main
+      - ".github/workflows/main.yml"
+      
