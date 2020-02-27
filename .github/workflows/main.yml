@@ -6,4 +6,4 @@ on:
       - main
     paths:
       - ".github/workflows/main.yml"
-      
+      - "Dockerfile
