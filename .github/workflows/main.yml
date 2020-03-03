@@ -8,4 +8,5 @@ on:
       - ".github/workflows/main.yml"
       - "Dockerfile"
       - "src/**"
-      - "requirements.t
+      - "requirements.txt"
+     
