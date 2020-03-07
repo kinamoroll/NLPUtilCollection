@@ -12,4 +12,5 @@ on:
       - "setup.py"
 
 jobs:
-  main
+  main:
+    runs-on
