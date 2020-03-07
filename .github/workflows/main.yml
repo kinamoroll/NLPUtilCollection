@@ -9,4 +9,4 @@ on:
       - "Dockerfile"
       - "src/**"
       - "requirements.txt"
-     
+      - "setup.py"
