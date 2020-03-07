@@ -10,3 +10,6 @@ on:
       - "src/**"
       - "requirements.txt"
       - "setup.py"
+
+jobs:
+  main
