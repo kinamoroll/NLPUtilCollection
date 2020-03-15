@@ -13,4 +13,4 @@ on:
 
 jobs:
   main:
-    runs-on
+    runs-on: ubuntu-la
