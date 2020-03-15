@@ -15,4 +15,4 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actio
+      - uses: actions/checkout@
