@@ -13,4 +13,5 @@ on:
 
 jobs:
   main:
-    runs-on: ubuntu-la
+    runs-on: ubuntu-latest
+    steps:
