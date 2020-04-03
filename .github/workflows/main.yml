@@ -20,4 +20,4 @@ jobs:
       - name: Run Linter
         uses: brpaz/hadolint-action@v1.1.0
         with:
-          doc
+          dockerfile: "./Dockerf
