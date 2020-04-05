@@ -22,4 +22,4 @@ jobs:
         with:
           dockerfile: "./Dockerfile"
 
-      -
+      - name
