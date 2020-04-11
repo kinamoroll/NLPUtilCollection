@@ -22,4 +22,5 @@ jobs:
         with:
           dockerfile: "./Dockerfile"
 
-      - name: Check Buil
+      - name: Check Building Image
+        
