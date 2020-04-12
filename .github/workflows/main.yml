@@ -23,4 +23,4 @@ jobs:
           dockerfile: "./Dockerfile"
 
       - name: Check Building Image
-        
+        run: docker build 
