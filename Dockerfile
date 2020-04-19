@@ -11,3 +11,18 @@ WORKDIR /app
 
 COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
+
+# download fasttext pretrained model
+RUN mkdir -p /fasttext && curl -L https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin > /fasttext/lid.176.bin
+ENV MODEL_PATH=/fasttext/lid.176.bin
+
+# download nltk punkt
+RUN python -c "import nltk; nltk.download('punkt')"
+
+VOLUME ["/fasttext"]
+VOLUME ["/root/nltk_data"]
+
+COPY . /app
+RUN pip install --no-cache-dir -e .
+
+CMD ["dnlp"]
