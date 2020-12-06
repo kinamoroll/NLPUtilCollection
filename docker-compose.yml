@@ -5,4 +5,6 @@ services:
     restart: always
     build: .
     ports:
-      - "9090:
+      - "9090:9090"
+    expose:
+    
