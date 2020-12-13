@@ -9,4 +9,4 @@ services:
     expose:
       - 9090
     logging:
-  
+      driv
