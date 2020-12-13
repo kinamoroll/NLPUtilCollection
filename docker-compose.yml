@@ -8,4 +8,5 @@ services:
       - "9090:9090"
     expose:
       - 9090
-    l
+    logging:
+  
