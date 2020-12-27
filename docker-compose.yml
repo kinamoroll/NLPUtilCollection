@@ -11,4 +11,5 @@ services:
     logging:
       driver: "none"
     volumes:
-      - fasttext:/fas
+      - fasttext:/fasttext
+      - nltk_
