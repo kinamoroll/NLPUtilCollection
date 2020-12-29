@@ -12,4 +12,4 @@ services:
       driver: "none"
     volumes:
       - fasttext:/fasttext
-      - nltk_
+      - nltk_data:/root/
