@@ -15,4 +15,5 @@ services:
       - nltk_data:/root/nltk_data
 
 volumes:
-  
+    fasttext:
+   
