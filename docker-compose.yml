@@ -16,4 +16,4 @@ services:
 
 volumes:
     fasttext:
-   
+    nltk_data:
