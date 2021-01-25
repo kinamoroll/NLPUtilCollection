@@ -6,4 +6,4 @@ setup(
     author='Lord Alfred',
     url='https://github.com/lord-alfred/dnlp',
     license='MIT',
-    license_files
+    license_files='LICENSE',
