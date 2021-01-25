@@ -5,4 +5,5 @@ setup(
     name='dnlp',
     author='Lord Alfred',
     url='https://github.com/lord-alfred/dnlp',
-    license
+    license='MIT',
+    li
