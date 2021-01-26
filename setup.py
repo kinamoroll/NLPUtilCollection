@@ -8,4 +8,4 @@ setup(
     license='MIT',
     license_files='LICENSE',
     entry_points={
-       
+        'cons
