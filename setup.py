@@ -8,4 +8,5 @@ setup(
     license='MIT',
     license_files='LICENSE',
     entry_points={
-        'console_script
+        'console_scripts': [
+  
