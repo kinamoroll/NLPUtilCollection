@@ -9,4 +9,5 @@ setup(
     license_files='LICENSE',
     entry_points={
         'console_scripts': [
-            'dnlp=dnlp
+            'dnlp=dnlp.app:serve',
+   
