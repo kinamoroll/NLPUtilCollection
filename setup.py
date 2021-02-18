@@ -12,4 +12,4 @@ setup(
             'dnlp=dnlp.app:serve',
         ],
     },
-    packages=f
+    packages=find_packages('src
