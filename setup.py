@@ -12,3 +12,4 @@ setup(
             'dnlp=dnlp.app:serve',
         ],
     },
+    packages=f
