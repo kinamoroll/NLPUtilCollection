@@ -13,4 +13,4 @@ setup(
         ],
     },
     packages=find_packages('src'),
-    package
+    package_dir={''
