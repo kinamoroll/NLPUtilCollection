@@ -14,4 +14,5 @@ setup(
     },
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    python_requires='
+    python_requires='>=3.11',
+)
