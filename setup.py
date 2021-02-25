@@ -14,4 +14,4 @@ setup(
     },
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    p
+    python_requires='
