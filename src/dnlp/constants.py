@@ -1,3 +1,3 @@
 import re
 import sys
-import unico
+import unicodedata
