@@ -4,4 +4,4 @@ import unicodedata
 
 
 PUNCT_TRANSLATE_UNICODE = dict.fromkeys(
-  
+    (i for i i
