@@ -3,4 +3,4 @@ import sys
 import unicodedata
 
 
-PUNCT_TRAN
+PUNCT_TRANSLATE_UNICODE = dic
