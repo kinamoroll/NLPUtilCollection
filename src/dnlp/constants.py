@@ -3,4 +3,5 @@ import sys
 import unicodedata
 
 
-PUNCT_TRANSLATE_UNICODE = dic
+PUNCT_TRANSLATE_UNICODE = dict.fromkeys(
+  
