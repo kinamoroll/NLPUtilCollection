@@ -8,4 +8,4 @@ PUNCT_TRANSLATE_UNICODE = dict.fromkeys(
      if unicodedata.category(chr(i)).startswith('P')),
     u' ')
 
-LINEBREAK_REGEX = re.compile(r
+LINEBREAK_REGEX = re.compile(r'((\r\n)|[\n\v])
