@@ -10,4 +10,4 @@ PUNCT_TRANSLATE_UNICODE = dict.fromkeys(
 
 LINEBREAK_REGEX = re.compile(r'((\r\n)|[\n\v])+')
 
-NONBREAKING_SPACE
+NONBREAKING_SPACE_REGEX = re.c
