@@ -13,4 +13,4 @@ LINEBREAK_REGEX = re.compile(r'((\r\n)|[\n\v])+')
 NONBREAKING_SPACE_REGEX = re.compile(r'(?!\n)\s+')
 
 EMAIL_REGEX = re.compile(
-    r"(?:^|(?<=[^\w@.)]))([\
+    r"(?:^|(?<=[^\w@.)]))([\w+-](\.(?!\.)
