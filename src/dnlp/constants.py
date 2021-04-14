@@ -17,4 +17,4 @@ EMAIL_REGEX = re.compile(
     flags=re.IGNORECASE | re.UNICODE
 )
 
-NUMBERS_
+NUMBERS_REGEX = re.co
