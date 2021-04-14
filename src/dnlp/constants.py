@@ -14,4 +14,7 @@ NONBREAKING_SPACE_REGEX = re.compile(r'(?!\n)\s+')
 
 EMAIL_REGEX = re.compile(
     r"(?:^|(?<=[^\w@.)]))([\w+-](\.(?!\.))?)*?[\w+-]@(?:\w-?)*?\w+(\.([a-z]{2,})){1,3}(?:$|(?=\b))",
-    flags=re.IGNORECASE | re.UN
+    flags=re.IGNORECASE | re.UNICODE
+)
+
+NUMBERS_
