@@ -18,4 +18,4 @@ EMAIL_REGEX = re.compile(
 )
 
 NUMBERS_REGEX = re.compile(
-    r'(?:^|(?<=[^\w,.]))[+–-]?(([
+    r'(?:^|(?<=[^\w,.]))[+–-]?(([1-9]\d{0,2}(
