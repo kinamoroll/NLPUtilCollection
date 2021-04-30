@@ -22,4 +22,4 @@ NUMBERS_REGEX = re.compile(
     r'(\d*?[.,]\d+)|\d+)(?:$|(?=\b))'
 )
 
-# source: https://gist.g
+# source: https://gist.github.com/dpe
