@@ -22,4 +22,5 @@ NUMBERS_REGEX = re.compile(
     r'(\d*?[.,]\d+)|\d+)(?:$|(?=\b))'
 )
 
-# source: https://gist.github.com/dpe
+# source: https://gist.github.com/dperini/729294
+URL
