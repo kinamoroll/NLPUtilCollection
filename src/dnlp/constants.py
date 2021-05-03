@@ -24,4 +24,5 @@ NUMBERS_REGEX = re.compile(
 
 # source: https://gist.github.com/dperini/729294
 URL_REGEX = re.compile(
-    r"(?:^|(?<![\w
+    r"(?:^|(?<![\w/.]))"
+    # prot
