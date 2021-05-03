@@ -26,4 +26,4 @@ NUMBERS_REGEX = re.compile(
 URL_REGEX = re.compile(
     r"(?:^|(?<![\w/.]))"
     # protocol identifier
-    # r"(?:(?
+    # r"(?:(?:https?|ftp)://)"  
