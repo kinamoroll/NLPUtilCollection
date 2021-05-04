@@ -29,4 +29,6 @@ URL_REGEX = re.compile(
     # r"(?:(?:https?|ftp)://)"  <-- alt?
     r"(?:(?:https?://|ftp://|www\d{0,3}\.))"
     # user:pass authentication
-    r"(?:\S+(?::\S*)
+    r"(?:\S+(?::\S*)?@)?"
+    r"(?:"
+  
