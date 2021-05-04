@@ -27,4 +27,5 @@ URL_REGEX = re.compile(
     r"(?:^|(?<![\w/.]))"
     # protocol identifier
     # r"(?:(?:https?|ftp)://)"  <-- alt?
-    r"(?:(?:https?://|ftp://|www\d{0,3}\.)
+    r"(?:(?:https?://|ftp://|www\d{0,3}\.))"
+    # user:pass a
