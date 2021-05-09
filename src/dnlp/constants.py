@@ -31,4 +31,4 @@ URL_REGEX = re.compile(
     # user:pass authentication
     r"(?:\S+(?::\S*)?@)?"
     r"(?:"
-    # IP a
+    # IP address exclusi
