@@ -33,4 +33,4 @@ URL_REGEX = re.compile(
     r"(?:"
     # IP address exclusion
     # private & local networks
-  
+    r"(?!(?:10|127
