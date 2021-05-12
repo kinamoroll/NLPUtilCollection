@@ -32,4 +32,4 @@ URL_REGEX = re.compile(
     r"(?:\S+(?::\S*)?@)?"
     r"(?:"
     # IP address exclusion
-    # privat
+    # private & local ne
