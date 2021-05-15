@@ -34,4 +34,4 @@ URL_REGEX = re.compile(
     # IP address exclusion
     # private & local networks
     r"(?!(?:10|127)(?:\.\d{1,3}){3})"
-    r"(?!(?:169\.254|192\.168)(?:\.
+    r"(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})"
