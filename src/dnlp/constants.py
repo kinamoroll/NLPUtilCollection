@@ -37,4 +37,4 @@ URL_REGEX = re.compile(
     r"(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})"
     r"(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})"
     # IP address dotted notation octets
-    # ex
+    # excludes loop
