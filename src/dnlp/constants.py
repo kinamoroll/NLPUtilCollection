@@ -40,4 +40,5 @@ URL_REGEX = re.compile(
     # excludes loopback network 0.0.0.0
     # excludes reserved space >= 224.0.0.0
     # excludes network & broadcast addresses
-    # (first & last IP address of each cla
+    # (first & last IP address of each class)
+    r
