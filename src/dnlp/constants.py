@@ -42,4 +42,5 @@ URL_REGEX = re.compile(
     # excludes network & broadcast addresses
     # (first & last IP address of each class)
     r"(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])"
-    r"(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5
+    r"(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}"
+    r"(?
