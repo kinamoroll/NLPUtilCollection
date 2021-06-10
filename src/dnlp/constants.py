@@ -47,4 +47,4 @@ URL_REGEX = re.compile(
     r"|"
     # host name
     r"(?:(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)"
-    
+    # domain nam
