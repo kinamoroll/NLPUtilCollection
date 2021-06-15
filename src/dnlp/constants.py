@@ -50,4 +50,5 @@ URL_REGEX = re.compile(
     # domain name
     r"(?:\.(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)*"
     # TLD identifier
-    r"(?:\.(?:[a-z\u00a1-\uff
+    r"(?:\.(?:[a-z\u00a1-\uffff]{2,}))"
+  
