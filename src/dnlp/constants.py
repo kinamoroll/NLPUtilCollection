@@ -52,4 +52,4 @@ URL_REGEX = re.compile(
     # TLD identifier
     r"(?:\.(?:[a-z\u00a1-\uffff]{2,}))"
     r")"
-  
+    # port number
