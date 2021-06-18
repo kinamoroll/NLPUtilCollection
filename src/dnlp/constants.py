@@ -54,3 +54,4 @@ URL_REGEX = re.compile(
     r")"
     # port number
     r"(?::\d{2,5})?"
+    # resource pa
