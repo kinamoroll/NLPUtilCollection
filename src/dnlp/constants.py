@@ -53,4 +53,4 @@ URL_REGEX = re.compile(
     r"(?:\.(?:[a-z\u00a1-\uffff]{2,}))"
     r")"
     # port number
-    r"(?:
+    r"(?::\d{2,5})?"
