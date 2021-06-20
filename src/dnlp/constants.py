@@ -55,4 +55,5 @@ URL_REGEX = re.compile(
     # port number
     r"(?::\d{2,5})?"
     # resource path
+    r"(?:/\S*)?"
     r"(?
