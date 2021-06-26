@@ -56,4 +56,5 @@ URL_REGEX = re.compile(
     r"(?::\d{2,5})?"
     # resource path
     r"(?:/\S*)?"
-    r"(?:$|(?![\w?!+&/]))
+    r"(?:$|(?![\w?!+&/]))",
+    flags
