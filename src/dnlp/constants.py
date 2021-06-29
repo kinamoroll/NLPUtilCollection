@@ -57,4 +57,5 @@ URL_REGEX = re.compile(
     # resource path
     r"(?:/\S*)?"
     r"(?:$|(?![\w?!+&/]))",
-    flags=re.UNICODE | re.I
+    flags=re.UNICODE | re.IGNORECASE
+)
