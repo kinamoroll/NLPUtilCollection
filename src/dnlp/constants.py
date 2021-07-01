@@ -59,3 +59,5 @@ URL_REGEX = re.compile(
     r"(?:$|(?![\w?!+&/]))",
     flags=re.UNICODE | re.IGNORECASE
 )
+
+SHORT_URL_RE
