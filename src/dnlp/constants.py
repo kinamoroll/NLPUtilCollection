@@ -60,4 +60,5 @@ URL_REGEX = re.compile(
     flags=re.UNICODE | re.IGNORECASE
 )
 
-SHORT_URL_RE
+SHORT_URL_REGEX = re.compile(
+  
