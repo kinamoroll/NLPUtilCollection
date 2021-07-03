@@ -62,4 +62,4 @@ URL_REGEX = re.compile(
 
 SHORT_URL_REGEX = re.compile(
     r"(?:^|(?<![\w/.]))"
-    #
+    # optional 
