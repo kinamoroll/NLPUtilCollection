@@ -64,4 +64,5 @@ SHORT_URL_REGEX = re.compile(
     r"(?:^|(?<![\w/.]))"
     # optional scheme
     r"(?:(?:https?://)?)"
-    # dom
+    # domain
+    r"(?:\w-?
