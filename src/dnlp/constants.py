@@ -67,4 +67,5 @@ SHORT_URL_REGEX = re.compile(
     # domain
     r"(?:\w-?)*?\w+(?:\.[a-z]{2,12}){1,3}"
     r"/"
-   
+    # hash
+    r"
