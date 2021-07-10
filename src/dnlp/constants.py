@@ -69,4 +69,4 @@ SHORT_URL_REGEX = re.compile(
     r"/"
     # hash
     r"[^\s.,?!'\"|+]{2,12}"
-    r"(
+    r"(?:$|(?![\w?!+
