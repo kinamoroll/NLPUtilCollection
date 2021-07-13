@@ -59,3 +59,18 @@ async def tokenize(request):
 
     if not sentences:
         return abort('tokenization error')
+
+    return json_response(sentences)
+
+
+async def detect(request):
+    post_data = await request.post()
+    param_text = post_data.get('text', '')
+
+    # preprocessing (normalization)
+    param_text = preprocess_text(param_text)
+    if not param_text:
+        return abort('empty "text" parameter')
+
+    param_count = post_data.get('count', 3)
+    param_count = int(param_count)
