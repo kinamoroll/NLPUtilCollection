@@ -74,3 +74,11 @@ async def detect(request):
 
     param_count = post_data.get('count', 3)
     param_count = int(param_count)
+
+    loop = asyncio.get_event_loop()
+    prediction = await loop.run_in_executor(
+        executor=None,
+        func=lambda: FT_MODEL.predict(
+            param_text,
+            k=param_count,
+            threshold=0.01
