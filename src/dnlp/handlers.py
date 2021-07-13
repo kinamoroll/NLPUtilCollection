@@ -82,3 +82,10 @@ async def detect(request):
             param_text,
             k=param_count,
             threshold=0.01
+        ),
+    )
+
+    if not prediction:
+        return abort('detection error')
+
+    return json_response(
