@@ -89,3 +89,13 @@ async def detect(request):
         return abort('detection error')
 
     return json_response(
+        remap_prediction(prediction)
+    )
+
+
+async def extract(request):
+    post_data = await request.post()
+    param_html = post_data.get('html', '')
+
+    if not param_html:
+        return abort('empty "html" parameter')
