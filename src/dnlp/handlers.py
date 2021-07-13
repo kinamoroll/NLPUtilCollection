@@ -45,3 +45,17 @@ async def tokenize(request):
     if param_lang in PUNKT_LANGUAGES.keys():
         if param_lang not in SENT_TOKENIZER.keys():
             # first tokenizer load (may be slow)
+            SENT_TOKENIZER[param_lang] = nltk_load(f'tokenizers/punkt/{PUNKT_LANGUAGES[param_lang]}.pickle')
+    else:
+        return abort('unknown language code')
+
+    loop = asyncio.get_event_loop()
+    sentences = await loop.run_in_executor(
+        executor=None,
+        func=lambda: SENT_TOKENIZER[param_lang].tokenize(
+            param_text
+        ),
+    )
+
+    if not sentences:
+        return abort('tokenization error')
