@@ -11,3 +11,15 @@ from trafilatura.settings import use_config
 
 from dnlp.helpers import abort, deduplicate_sentences
 from dnlp.languages import PUNKT_LANGUAGES
+from dnlp.postprocess import remap_prediction
+from dnlp.preprocess import fix_bad_unicode, normalize_html, normalize_whitespace, preprocess_text
+
+
+# fastText
+MODEL_PATH = os.environ.get('MODEL_PATH', None)
+if not MODEL_PATH:
+    raise RuntimeError('Environment variable "MODEL_PATH" empty')
+FT_MODEL = ft_load_model(MODEL_PATH)
+
+# nltk punkt
+SENT_TOKENIZER = {}
