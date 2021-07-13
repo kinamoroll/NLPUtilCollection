@@ -36,3 +36,12 @@ async def tokenize(request):
     param_text = fix_bad_unicode(param_text, normalization='NFC')
     param_text = normalize_whitespace(param_text)
     param_text = param_text.strip()
+
+    if not param_text:
+        return abort('empty "text" parameter')
+
+    param_lang = post_data.get('lang', 'en')
+
+    if param_lang in PUNKT_LANGUAGES.keys():
+        if param_lang not in SENT_TOKENIZER.keys():
+            # first tokenizer load (may be slow)
