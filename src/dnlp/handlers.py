@@ -99,3 +99,18 @@ async def extract(request):
 
     if not param_html:
         return abort('empty "html" parameter')
+
+    param_html = normalize_html(param_html)
+
+    loop = asyncio.get_event_loop()
+    result = await loop.run_in_executor(
+        executor=None,
+        func=lambda: trafilatura_extract(
+            param_html,
+            favor_precision=True,
+            include_comments=False,
+            config=TRAFILATURA_CONFIG,
+        ),
+    )
+
+    if not result:
