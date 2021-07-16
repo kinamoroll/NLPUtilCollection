@@ -1,2 +1,2 @@
 import asyncio
-from functoo
+from functools import wraps
