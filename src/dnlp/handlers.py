@@ -114,3 +114,13 @@ async def extract(request):
     )
 
     if not result:
+        return abort('extract error')
+
+    return Response(body=result, content_type='text/plain')
+
+
+async def deduplicate(request):
+    json_data = await request.json()  # type: dict
+
+    if not json_data:
+        return abort('Not found `json` in request data')
