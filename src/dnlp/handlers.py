@@ -145,3 +145,8 @@ async def deduplicate(request):
             threshold=threshold,
         ),
     )
+
+    if not dedup_sentences:
+        return abort('deduplication error')
+
+    return json_response(dedup_sentences)
