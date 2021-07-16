@@ -124,3 +124,24 @@ async def deduplicate(request):
 
     if not json_data:
         return abort('Not found `json` in request data')
+
+    sentences = json_data.get('sentences', None)
+    if not sentences:
+        return abort('Not found `sentences` in json')
+
+    if not isinstance(sentences, list):
+        return abort('Param `sentences` is not iterable: must be array of strings in json')
+
+    try:
+        threshold = float(json_data.get('threshold', 0.8))
+    except ValueError:
+        return abort('Param `threshold` is malformed: type is not float')
+
+    loop = asyncio.get_event_loop()
+    dedup_sentences = await loop.run_in_executor(
+        executor=None,
+        func=lambda: deduplicate_sentences(
+            sentences,
+            threshold=threshold,
+        ),
+    )
