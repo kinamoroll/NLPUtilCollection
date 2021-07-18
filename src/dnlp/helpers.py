@@ -2,4 +2,4 @@ import asyncio
 from functools import wraps
 from typing import List
 
-from Levenshtei
+from Levenshtein import r
