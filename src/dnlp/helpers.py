@@ -8,4 +8,4 @@ from aiohttp.web import json_response
 
 def sync(func):
     @wraps(func)
-   
+    def wrapp
