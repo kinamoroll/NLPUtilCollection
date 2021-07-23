@@ -7,4 +7,5 @@ from aiohttp.web import json_response
 
 
 def sync(func):
-    @wra
+    @wraps(func)
+   
