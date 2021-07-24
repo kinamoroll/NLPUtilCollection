@@ -9,4 +9,4 @@ from aiohttp.web import json_response
 def sync(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
-        return async
+        return asyncio.get_even
