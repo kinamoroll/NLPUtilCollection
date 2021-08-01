@@ -12,3 +12,5 @@ def sync(func):
         return asyncio.get_event_loop().run_until_complete(func(*args, **kwargs))
     return wrapper
 
+
+def abort(error_tex
