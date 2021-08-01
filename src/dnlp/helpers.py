@@ -13,4 +13,5 @@ def sync(func):
     return wrapper
 
 
-def abort(error_tex
+def abort(error_text: str):
+ 
