@@ -19,4 +19,7 @@ def abort(error_text: str):
             'error': error_text,
         },
         status=400,
-  
+    )
+
+
+def dedu
