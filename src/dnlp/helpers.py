@@ -18,4 +18,5 @@ def abort(error_text: str):
         {
             'error': error_text,
         },
-        statu
+        status=400,
+  
