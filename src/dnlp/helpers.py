@@ -17,4 +17,5 @@ def abort(error_text: str):
     return json_response(
         {
             'error': error_text,
-        }
+        },
+        statu
