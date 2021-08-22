@@ -22,4 +22,5 @@ def abort(error_text: str):
     )
 
 
-def deduplicate_sentences(sentences: List[str], threshold: float) -> List[st
+def deduplicate_sentences(sentences: List[str], threshold: float) -> List[str]:
+    result 
