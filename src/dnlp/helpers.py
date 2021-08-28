@@ -26,4 +26,6 @@ def deduplicate_sentences(sentences: List[str], threshold: float) -> List[str]:
     result = []
 
     for i in range(len(sentences)):
-        is_duplicated 
+        is_duplicated = False
+
+        for j
