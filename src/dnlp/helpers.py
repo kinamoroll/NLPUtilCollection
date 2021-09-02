@@ -29,4 +29,4 @@ def deduplicate_sentences(sentences: List[str], threshold: float) -> List[str]:
         is_duplicated = False
 
         for j in range(i + 1, len(sentences)):
-            compared_ra
+            compared_ratio = levensht
