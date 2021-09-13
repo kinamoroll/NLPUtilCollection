@@ -31,4 +31,4 @@ def deduplicate_sentences(sentences: List[str], threshold: float) -> List[str]:
         for j in range(i + 1, len(sentences)):
             compared_ratio = levenshtein_ratio(sentences[i], sentences[j])
 
-            if compared_ra
+            if compared_ratio > thresh
