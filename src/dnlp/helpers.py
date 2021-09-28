@@ -38,4 +38,4 @@ def deduplicate_sentences(sentences: List[str], threshold: float) -> List[str]:
         if not is_duplicated:
             result.append(sentences[i])
 
-  
+    return result
