@@ -206,3 +206,9 @@ PUNKT_LANGUAGES = {
     'no': 'norwegian',
     'pl': 'polish',
     'pt': 'portuguese',
+    'ru': 'russian',
+    'sl': 'slovene',
+    'es': 'spanish',
+    'sv': 'swedish',
+    'tr': 'turkish',
+}
