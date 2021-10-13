@@ -181,3 +181,14 @@ FASTTEXT_LANGUAGES = {
     'vls': ('Indo-European', 'West Flemish', 'West-Vlaams', '', '', '', 'vls'),
     'pnb': ('Indo-European', 'Western Punjabi', 'ਪੰਜਾਬੀ پن٘جابی', 'pa', 'pan', '', 'pnb'),
     'wuu': ('Sino-Tibetan', 'Wu', '吳語/吴语', '', '', '', 'wuu'),
+    'diq': ('Indo-European', 'Zazaki', 'Kirmanjki', '', 'zza', '', 'zza'),
+    'cbk': ('Spanish-based creole', 'Zamboanga Chavacano', 'Chabacano', '', '', '', 'cbk'),
+    'dty': ('Indo-European', 'Doteli', 'डोटेली', '', '', '', 'dty'),
+    'yue': ('Sino-Tibetan', 'Cantonese', '粵語/粤语', '', '', '', 'yue'),
+}
+
+
+# https://github.com/nltk/nltk_data/blob/gh-pages/packages/tokenizers/punkt.xml
+# ll ~/nltk_data/tokenizers/punkt
+# less ~/nltk_data/tokenizers/punkt/README
+PUNKT_LANGUAGES = {
