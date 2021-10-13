@@ -192,3 +192,17 @@ FASTTEXT_LANGUAGES = {
 # ll ~/nltk_data/tokenizers/punkt
 # less ~/nltk_data/tokenizers/punkt/README
 PUNKT_LANGUAGES = {
+    'cs': 'czech',
+    'da': 'danish',
+    'nl': 'dutch',
+    'en': 'english',
+    'et': 'estonian',
+    'fi': 'finnish',
+    'fr': 'french',
+    'de': 'german',
+    'el': 'greek',
+    'it': 'italian',
+    'ml': 'malayalam',
+    'no': 'norwegian',
+    'pl': 'polish',
+    'pt': 'portuguese',
