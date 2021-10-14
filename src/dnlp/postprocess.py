@@ -21,3 +21,5 @@ def remap_prediction(prediction):
             'iso639-2/B': FASTTEXT_LANGUAGES[lang][5],
             'iso639-3': FASTTEXT_LANGUAGES[lang][6],
         })
+
+    return sorted(result, key=lambda d: d['confidence'], reverse=True)
