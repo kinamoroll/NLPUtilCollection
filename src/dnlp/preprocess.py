@@ -1,4 +1,4 @@
 import re
 from typing import Optional
 
-from ft
+from ftfy import fix_t
