@@ -8,4 +8,5 @@ from dnlp.constants import (
     LINEBREAK_REGEX,
     NONBREAKING_SPACE_REGEX,
     NUMBERS_REGEX,
-    PUNCT_TR
+    PUNCT_TRANSLATE_UNICODE,
+  
