@@ -7,4 +7,5 @@ from dnlp.constants import (
     EMAIL_REGEX,
     LINEBREAK_REGEX,
     NONBREAKING_SPACE_REGEX,
-    NUMBE
+    NUMBERS_REGEX,
+   
