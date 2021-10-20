@@ -9,4 +9,4 @@ from dnlp.constants import (
     NONBREAKING_SPACE_REGEX,
     NUMBERS_REGEX,
     PUNCT_TRANSLATE_UNICODE,
-  
+    SHORT_URL_REGEX,
