@@ -14,4 +14,4 @@ from dnlp.constants import (
 )
 
 
-def preprocess_text(text: 
+def preprocess_text(text: str) -> str:
