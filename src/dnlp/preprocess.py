@@ -15,4 +15,5 @@ from dnlp.constants import (
 
 
 def preprocess_text(text: str) -> str:
-    """Based on `textacy.preprocess_text
+    """Based on `textacy.preprocess_text` method"""
+   
