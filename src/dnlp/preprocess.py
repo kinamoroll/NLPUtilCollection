@@ -18,4 +18,5 @@ def preprocess_text(text: str) -> str:
     """Based on `textacy.preprocess_text` method"""
     # small speedup
     text = text.strip()
-    if 
+    if not text:
+ 
