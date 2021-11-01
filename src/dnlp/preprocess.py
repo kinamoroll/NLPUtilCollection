@@ -19,4 +19,6 @@ def preprocess_text(text: str) -> str:
     # small speedup
     text = text.strip()
     if not text:
-        return
+        return text
+
+    te
