@@ -21,4 +21,5 @@ def preprocess_text(text: str) -> str:
     if not text:
         return text
 
-    text = fix_bad_unicode(text, normal
+    text = fix_bad_unicode(text, normalization='NFC')
+
