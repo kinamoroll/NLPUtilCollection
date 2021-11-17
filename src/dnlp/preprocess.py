@@ -28,4 +28,5 @@ def preprocess_text(text: str) -> str:
     text = replace_emails(text, replace_with=' ')
     text = replace_numbers(text, replace_with=' ')
 
-    text = remove_p
+    text = remove_punct(text)
+   
