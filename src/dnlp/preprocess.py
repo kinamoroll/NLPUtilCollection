@@ -28,4 +28,4 @@ def preprocess_text(text: str) -> str:
     text = replace_emails(text, replace_with=' ')
     text = replace_numbers(text, replace_with=' ')
 
-    te
+    text = remove_p
