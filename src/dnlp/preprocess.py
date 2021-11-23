@@ -29,4 +29,5 @@ def preprocess_text(text: str) -> str:
     text = replace_numbers(text, replace_with=' ')
 
     text = remove_punct(text)
-    text = text.lower(
+    text = text.lower()
+    text = n
