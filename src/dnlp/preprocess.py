@@ -30,4 +30,4 @@ def preprocess_text(text: str) -> str:
 
     text = remove_punct(text)
     text = text.lower()
-    text = n
+    text = normaliz
