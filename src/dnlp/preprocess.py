@@ -30,4 +30,6 @@ def preprocess_text(text: str) -> str:
 
     text = remove_punct(text)
     text = text.lower()
-    text = normalize_whitespace(t
+    text = normalize_whitespace(text)
+
+ 
