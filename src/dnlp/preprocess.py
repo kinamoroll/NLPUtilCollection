@@ -32,4 +32,5 @@ def preprocess_text(text: str) -> str:
     text = text.lower()
     text = normalize_whitespace(text)
 
-    # fastText work only with 
+    # fastText work only with 1 line of text
+   
