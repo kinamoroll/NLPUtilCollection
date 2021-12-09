@@ -33,4 +33,4 @@ def preprocess_text(text: str) -> str:
     text = normalize_whitespace(text)
 
     # fastText work only with 1 line of text
-    text = text.re
+    text = text.replace('\n'
