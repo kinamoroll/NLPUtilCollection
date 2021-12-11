@@ -34,4 +34,4 @@ def preprocess_text(text: str) -> str:
 
     # fastText work only with 1 line of text
     text = text.replace('\n', ' ')
-    tex
+    text = text.re
