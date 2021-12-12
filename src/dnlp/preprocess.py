@@ -36,4 +36,7 @@ def preprocess_text(text: str) -> str:
     text = text.replace('\n', ' ')
     text = text.replace('\r', ' ')
 
-    return text.
+    return text.strip()
+
+
+def fix_b
