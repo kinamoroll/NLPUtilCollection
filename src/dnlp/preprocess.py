@@ -39,4 +39,4 @@ def preprocess_text(text: str) -> str:
     return text.strip()
 
 
-def fix_b
+def fix_bad_unicode(t
