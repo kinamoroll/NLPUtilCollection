@@ -39,4 +39,5 @@ def preprocess_text(text: str) -> str:
     return text.strip()
 
 
-def fix_bad_unicode(text: str, normalization: str = 'NFC
+def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
+    """
