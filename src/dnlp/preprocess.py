@@ -42,4 +42,5 @@ def preprocess_text(text: str) -> str:
 def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
     """
     Fix unicode text that's "broken" using `ftfy <http://ftfy.readthedocs.org/>`_;
-    this includes mojibake, HTML entities and other code 
+    this includes mojibake, HTML entities and other code cruft,
+  
