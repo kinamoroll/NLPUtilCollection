@@ -45,4 +45,5 @@ def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
     this includes mojibake, HTML entities and other code cruft,
     and non-standard forms for display purposes.
 
-    Arg
+    Args:
+        te
