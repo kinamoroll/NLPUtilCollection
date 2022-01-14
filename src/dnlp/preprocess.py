@@ -46,4 +46,4 @@ def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
     and non-standard forms for display purposes.
 
     Args:
-        te
+        text (str): raw text
