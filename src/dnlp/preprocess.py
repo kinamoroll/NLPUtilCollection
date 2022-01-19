@@ -47,4 +47,4 @@ def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
 
     Args:
         text (str): raw text
-        normalizatio
+        normalization ({'NFC', 'NFKC'
