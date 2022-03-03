@@ -48,4 +48,4 @@ def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
     Args:
         text (str): raw text
         normalization ({'NFC', 'NFKC', 'NFD', 'NFKD'}): if 'NFC',
-            combines characters and diacritics written using 
+            combines characters and diacritics written using separate c
