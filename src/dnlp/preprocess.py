@@ -50,4 +50,4 @@ def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
         normalization ({'NFC', 'NFKC', 'NFD', 'NFKD'}): if 'NFC',
             combines characters and diacritics written using separate code points,
             e.g. converting "e" plus an acute accent modifier into "é"; unicode
-            can be converted to NFC form
+            can be converted to NFC form without any 
