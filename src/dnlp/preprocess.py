@@ -55,4 +55,5 @@ def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
             the meanings of characters, e.g. ellipsis characters will be replaced
             with three periods
 
-    Retur
+    Returns:
+        s
