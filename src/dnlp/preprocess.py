@@ -56,4 +56,6 @@ def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
             with three periods
 
     Returns:
-        s
+        str
+    """
+ 
