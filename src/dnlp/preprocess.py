@@ -58,4 +58,7 @@ def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
     Returns:
         str
     """
-    return fix_text(text, normalization=normalizat
+    return fix_text(text, normalization=normalization)
+
+
+def replace
