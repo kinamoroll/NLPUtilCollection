@@ -61,4 +61,4 @@ def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
     return fix_text(text, normalization=normalization)
 
 
-def replace_urls(text: str, replace_with: str =
+def replace_urls(text: str, replace_with: str = '*URL*') -> str:
