@@ -62,4 +62,5 @@ def fix_bad_unicode(text: str, normalization: str = 'NFC') -> str:
 
 
 def replace_urls(text: str, replace_with: str = '*URL*') -> str:
-    """Replace all URLs in ``text`` str with ``replace_wi
+    """Replace all URLs in ``text`` str with ``replace_with`` str."""
+    retu
