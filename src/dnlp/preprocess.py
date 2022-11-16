@@ -65,3 +65,7 @@ def replace_urls(text: str, replace_with: str = '*URL*') -> str:
     """Replace all URLs in ``text`` str with ``replace_with`` str."""
     return URL_REGEX.sub(
         replace_with, SHORT_URL_REGEX.sub(replace_with, text)
+    )
+
+
+def repl
