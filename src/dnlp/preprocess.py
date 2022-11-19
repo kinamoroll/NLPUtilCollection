@@ -68,4 +68,4 @@ def replace_urls(text: str, replace_with: str = '*URL*') -> str:
     )
 
 
-def replace_emails(
+def replace_emails(text: str, replace_
