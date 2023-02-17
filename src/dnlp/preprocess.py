@@ -70,4 +70,4 @@ def replace_urls(text: str, replace_with: str = '*URL*') -> str:
 
 def replace_emails(text: str, replace_with: str = '*EMAIL*') -> str:
     """Replace all emails in ``text`` str with ``replace_with`` str."""
-    return EMAIL_REGEX.sub(replace_wit
+    return EMAIL_REGEX.sub(replace_with, text)
