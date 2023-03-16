@@ -73,4 +73,5 @@ def replace_emails(text: str, replace_with: str = '*EMAIL*') -> str:
     return EMAIL_REGEX.sub(replace_with, text)
 
 
-def replace_numbers(text: str, replace_with: str = '*NUMBER*'
+def replace_numbers(text: str, replace_with: str = '*NUMBER*') -> str:
+    ""
