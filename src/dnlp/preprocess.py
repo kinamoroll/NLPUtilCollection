@@ -75,4 +75,4 @@ def replace_emails(text: str, replace_with: str = '*EMAIL*') -> str:
 
 def replace_numbers(text: str, replace_with: str = '*NUMBER*') -> str:
     """Replace all numbers in ``text`` str with ``replace_with`` str."""
-    return NUMBERS_
+    return NUMBERS_REGEX.sub(repla
