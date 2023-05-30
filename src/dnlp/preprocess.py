@@ -78,4 +78,4 @@ def replace_numbers(text: str, replace_with: str = '*NUMBER*') -> str:
     return NUMBERS_REGEX.sub(replace_with, text)
 
 
-def remove_punct(text: str, marks: Optio
+def remove_punct(text: str, marks: Optional[str] = None) -> s
