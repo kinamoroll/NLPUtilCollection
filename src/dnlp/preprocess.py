@@ -80,4 +80,5 @@ def replace_numbers(text: str, replace_with: str = '*NUMBER*') -> str:
 
 def remove_punct(text: str, marks: Optional[str] = None) -> str:
     """
-    Remove punctuation from ``text`` by replacing all instances of ``m
+    Remove punctuation from ``text`` by replacing all instances of ``marks``
+    wi
