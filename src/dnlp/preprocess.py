@@ -89,4 +89,5 @@ def remove_punct(text: str, marks: Optional[str] = None) -> str:
             e.g. ``marks=',;:'`` removes commas, semi-colons, and colons.
             Otherwise, all punctuation marks are removed.
 
+    Returns:
     
