@@ -93,4 +93,5 @@ def remove_punct(text: str, marks: Optional[str] = None) -> str:
         str
 
     Note:
-        When ``marks=None``, Python's built-in :meth:`str.trans
+        When ``marks=None``, Python's built-in :meth:`str.translate()` is
+      
