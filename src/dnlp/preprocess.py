@@ -94,4 +94,4 @@ def remove_punct(text: str, marks: Optional[str] = None) -> str:
 
     Note:
         When ``marks=None``, Python's built-in :meth:`str.translate()` is
-        used to remove punctuat
+        used to remove punctuation; otherwise, 
