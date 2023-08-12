@@ -97,4 +97,5 @@ def remove_punct(text: str, marks: Optional[str] = None) -> str:
         used to remove punctuation; otherwise, a regular expression is used
         instead. The former's performance is about 5-10x faster.
     """
+    if marks:
   
