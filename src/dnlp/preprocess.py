@@ -99,4 +99,5 @@ def remove_punct(text: str, marks: Optional[str] = None) -> str:
     """
     if marks:
         return re.sub('[{}]+'.format(re.escape(marks)), ' ', text, flags=re.UNICODE)
-    els
+    else:
+        return
