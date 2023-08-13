@@ -98,4 +98,4 @@ def remove_punct(text: str, marks: Optional[str] = None) -> str:
         instead. The former's performance is about 5-10x faster.
     """
     if marks:
-        return re.sub('[{}]+'
+        return re.sub('[{}]+'.format(re.esc
