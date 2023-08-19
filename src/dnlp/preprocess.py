@@ -100,4 +100,4 @@ def remove_punct(text: str, marks: Optional[str] = None) -> str:
     if marks:
         return re.sub('[{}]+'.format(re.escape(marks)), ' ', text, flags=re.UNICODE)
     else:
-        return text.translat
+        return text.translate(PUNCT_TRANSLA
