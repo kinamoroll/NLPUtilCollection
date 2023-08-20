@@ -103,4 +103,5 @@ def remove_punct(text: str, marks: Optional[str] = None) -> str:
         return text.translate(PUNCT_TRANSLATE_UNICODE)
 
 
-def normalize_whitespace(text: st
+def normalize_whitespace(text: str) -> str:
+    """
