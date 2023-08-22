@@ -105,4 +105,4 @@ def remove_punct(text: str, marks: Optional[str] = None) -> str:
 
 def normalize_whitespace(text: str) -> str:
     """
-    Given ``text`` str, replace one or 
+    Given ``text`` str, replace one or more spacing
