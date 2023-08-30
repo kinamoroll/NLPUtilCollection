@@ -106,4 +106,6 @@ def remove_punct(text: str, marks: Optional[str] = None) -> str:
 def normalize_whitespace(text: str) -> str:
     """
     Given ``text`` str, replace one or more spacings with a single space, and one
-    or more linebreaks with a single newline. Also strip leading/trailing whitespace
+    or more linebreaks with a single newline. Also strip leading/trailing whitespace.
+    """
+  
