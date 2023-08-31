@@ -108,4 +108,5 @@ def normalize_whitespace(text: str) -> str:
     Given ``text`` str, replace one or more spacings with a single space, and one
     or more linebreaks with a single newline. Also strip leading/trailing whitespace.
     """
-    return NONBREAKING_SPAC
+    return NONBREAKING_SPACE_REGEX.sub(
+  
