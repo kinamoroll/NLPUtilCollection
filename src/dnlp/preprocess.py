@@ -110,4 +110,7 @@ def normalize_whitespace(text: str) -> str:
     """
     return NONBREAKING_SPACE_REGEX.sub(
         ' ', LINEBREAK_REGEX.sub(r'\n', text)
-    ).stri
+    ).strip()
+
+
+def normali
