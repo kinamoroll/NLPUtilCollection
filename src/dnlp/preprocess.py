@@ -109,4 +109,4 @@ def normalize_whitespace(text: str) -> str:
     or more linebreaks with a single newline. Also strip leading/trailing whitespace.
     """
     return NONBREAKING_SPACE_REGEX.sub(
-        ' ', LINEBREAK_REGEX.sub(r'\n'
+        ' ', LINEBREAK_REGEX.sub(r'\n', text)
