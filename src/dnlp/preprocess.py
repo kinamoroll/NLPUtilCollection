@@ -113,4 +113,5 @@ def normalize_whitespace(text: str) -> str:
     ).strip()
 
 
-def normalize_html(html:
+def normalize_html(html: str) -> str:
+   
