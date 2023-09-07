@@ -114,4 +114,4 @@ def normalize_whitespace(text: str) -> str:
 
 
 def normalize_html(html: str) -> str:
-    """Для чтобы слова из разных тегов не сл
+    """Для чтобы слова из разных тегов не сливались в о
