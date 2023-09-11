@@ -116,4 +116,5 @@ def normalize_whitespace(text: str) -> str:
 def normalize_html(html: str) -> str:
     """Для чтобы слова из разных тегов не сливались в одноСлово необходимо добавить немного пробелов"""
     return html.replace(
-       
+        '><',
+      
