@@ -1,3 +1,3 @@
 from aiohttp import web
 
-from dnlp.handlers
+from dnlp.handlers import dedupli
