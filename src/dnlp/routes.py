@@ -4,4 +4,5 @@ from dnlp.handlers import deduplicate, detect, extract, tokenize
 
 
 routes = [
-    web.post('/detect', detec
+    web.post('/detect', detect),
+    web.post
