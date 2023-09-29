@@ -7,4 +7,4 @@ routes = [
     web.post('/detect', detect),
     web.post('/tokenize', tokenize),
     web.post('/extract', extract),
-    web.po
+    web.post('/dedu
