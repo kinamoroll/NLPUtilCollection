@@ -9,4 +9,4 @@ routes = [
     web.post('/extract', extract),
     web.post('/deduplicate', deduplicate),
 
-    # deprecated and mu
+    # deprecated and must be remo
