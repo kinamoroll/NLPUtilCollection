@@ -10,4 +10,4 @@ routes = [
     web.post('/deduplicate', deduplicate),
 
     # deprecated and must be removed
-    web.pos
+    web.post('/detect-l
