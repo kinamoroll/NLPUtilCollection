@@ -10,4 +10,5 @@ routes = [
     web.post('/deduplicate', deduplicate),
 
     # deprecated and must be removed
-    web.post('/detect-language', detec
+    web.post('/detect-language', detect),
+    web.
