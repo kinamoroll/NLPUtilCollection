@@ -11,4 +11,4 @@ routes = [
 
     # deprecated and must be removed
     web.post('/detect-language', detect),
-    web.
+    web.post('/tokenize-se
