@@ -23,3 +23,16 @@ git clone https://github.com/kinamoroll/NLPUtilCollection.git
 ```
 
 Or download it via this [link](https://github.com/kinamoroll/NLPUtilCollection/archive/refs/heads/main.zip) as a zip archive (_don't forget to unzip the archive_).
+
+And start the container:
+```shell
+cd NLPUtilCollection
+docker compose up --build -d
+```
+
+To stop the container, navigate to the folder where `NLPUtilCollection` is cloned and run:
+```shell
+docker compose stop
+```
+
+## 🚦 Checking Functionality
