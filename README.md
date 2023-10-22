@@ -12,3 +12,14 @@ Currently includes:
 4. **Removal of fuzzy application duplicates** – using Levenshtein distance and the [Levenshtein](https://maxbachmann.github.io/Levenshtein/) package.
 
 ## 📦 Docker Installation
+
+To use, install the latest version of [Docker Engine](https://docs.docker.com/engine/install/).
+
+## 🚀 Launching NLPUtilCollection
+
+Clone the repo:
+```shell
+git clone https://github.com/kinamoroll/NLPUtilCollection.git
+```
+
+Or download it via this [link](https://github.com/kinamoroll/NLPUtilCollection/archive/refs/heads/main.zip) as a zip archive (_don't forget to unzip the archive_).
