@@ -36,3 +36,10 @@ docker compose stop
 ```
 
 ## 🚦 Checking Functionality
+
+After launching _on the same machine_, you can send requests to the container for checking (_curl should be installed for checking_):
+```shell
+# checking language identification:
+curl -v -XPOST -d 'text=some+useful+info' http://127.0.0.1:9090/detect
+
+# checking tokenization:
