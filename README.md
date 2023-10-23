@@ -43,3 +43,13 @@ After launching _on the same machine_, you can send requests to the container fo
 curl -v -XPOST -d 'text=some+useful+info' http://127.0.0.1:9090/detect
 
 # checking tokenization:
+curl -v -XPOST -d 'text=Test+sent%3F+Don%27t+or+ms.+Not%21+Yes%2C+of+course.+Maybe+mr.Jeck+and+band.&lang=en' http://127.0.0.1:9090/tokenize
+
+# extraction of text from an html document:
+curl -v XPOST -d 'html=%3Chtml%3E%3Cbody%3E%3Ch1%3Etest%3C%2Fh1%3E%3Cp%3Ethis%20is%20test%3C%2Fp%3E%3C%2Fbody%3E%3C%2Fhtml%3E' http://127.0.0.1:9090/extract
+
+# deletion of sentence duplicates:
+curl -v XPOST -d '{"sentences": ["1 sentence", "2 sentence", "Another sentence"], "threshold": 0.8}' http://127.0.0.1:9090/deduplicate
+```
+
+To check from another server, you need to change the IP address and ensure the `9090` port is not closed in the built-in firewall.
