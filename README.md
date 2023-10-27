@@ -67,3 +67,15 @@ Supports the following input parameters:
 - `count` – number of results. By default: `3`.
 
 As a result, there will be JSON in the form of an array of dictionaries:
+```json
+[
+  {
+    "confidence": 0.5937589406967163,
+    "code": "en",
+    "name": "English",
+    "family": "Indo-European",
+    "endonym": "English",
+    "iso639-1": "en",
+    "iso639-2/T": "eng",
+    "iso639-2/B": "eng",
+    "iso639-3": "eng"
