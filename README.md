@@ -53,3 +53,17 @@ curl -v XPOST -d '{"sentences": ["1 sentence", "2 sentence", "Another sentence"]
 ```
 
 To check from another server, you need to change the IP address and ensure the `9090` port is not closed in the built-in firewall.
+
+## 📚 API Endpoint Description
+
+All endpoints only process requests with the `POST` HTTP method.
+
+### Text Language Identification
+
+**API Endpoint**: `/detect`
+
+Supports the following input parameters:
+- `text` – a string with the text for which you want to identify the language;
+- `count` – number of results. By default: `3`.
+
+As a result, there will be JSON in the form of an array of dictionaries:
