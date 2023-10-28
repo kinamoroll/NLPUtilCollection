@@ -123,3 +123,14 @@ As a result, there will be JSON in the form of an array of strings:
   "Don't or ms. Not!",
   "Yes, of course.",
   "Maybe mr.Jeck and band."
+]
+```
+
+### Extracting Main Content from an HTML Document
+
+**API Endpoint**: `/extract`
+
+This supports only one input parameter:
+- `html` – the content of an HTML page, encoded using the `urlencode` function (the page needs to be downloaded independently).
+
+It's very important to encode the transmitted page in `URL-encoding` format because if there is no encoding, the parser will process only part of the page (up to the first symbol `&`)!
