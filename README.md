@@ -90,3 +90,20 @@ As a result, there will be JSON in the form of an array of dictionaries:
 Supports the following input parameters:
 - `text` – a string with text that needs to be broken down into sentences;
 - `lang` – text language code. By default: `en`.
+
+Supported languages for tokenization:
+```json
+{
+    "en": "english",
+    "ru": "russian",
+    "cs": "czech",
+    "da": "danish",
+    "nl": "dutch",
+    "et": "estonian",
+    "fi": "finnish",
+    "fr": "french",
+    "de": "german",
+    "el": "greek",
+    "it": "italian",
+    "ml": "malayalam",
+    "no": "norwegian",
