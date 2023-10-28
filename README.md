@@ -79,3 +79,14 @@ As a result, there will be JSON in the form of an array of dictionaries:
     "iso639-2/T": "eng",
     "iso639-2/B": "eng",
     "iso639-3": "eng"
+  }
+]
+```
+
+### Text Segmentation into Sentences
+
+**API Endpoint**: `/tokenize`
+
+Supports the following input parameters:
+- `text` – a string with text that needs to be broken down into sentences;
+- `lang` – text language code. By default: `en`.
