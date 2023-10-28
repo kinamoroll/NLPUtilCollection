@@ -107,3 +107,19 @@ Supported languages for tokenization:
     "it": "italian",
     "ml": "malayalam",
     "no": "norwegian",
+    "pl": "polish",
+    "pt": "portuguese",
+    "sl": "slovene",
+    "es": "spanish",
+    "sv": "swedish",
+    "tr": "turkish"
+}
+```
+
+As a result, there will be JSON in the form of an array of strings:
+```json
+[
+  "Test sent?",
+  "Don't or ms. Not!",
+  "Yes, of course.",
+  "Maybe mr.Jeck and band."
