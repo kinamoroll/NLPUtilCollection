@@ -134,3 +134,15 @@ This supports only one input parameter:
 - `html` – the content of an HTML page, encoded using the `urlencode` function (the page needs to be downloaded independently).
 
 It's very important to encode the transmitted page in `URL-encoding` format because if there is no encoding, the parser will process only part of the page (up to the first symbol `&`)!
+
+As a result, the main content of the page will be returned without html tags.
+
+### Fuzzy Application Duplicate Deletion
+
+**API Endpoint**: `/deduplicate`
+
+❗️ Please note that only `JSON` is acceptable.
+
+The following keys with values must be inside `json`:
+- `sentences` – an array of strings (sentences) from which duplicates are to be deleted;
+- `threshold` – a threshold value in the interval `[0.0, 1.0]`, triggering which considers the sentence as a fuzzy duplicate (the parameter is optional, by default: `0.8`).
