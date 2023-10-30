@@ -146,3 +146,17 @@ As a result, the main content of the page will be returned without html tags.
 The following keys with values must be inside `json`:
 - `sentences` – an array of strings (sentences) from which duplicates are to be deleted;
 - `threshold` – a threshold value in the interval `[0.0, 1.0]`, triggering which considers the sentence as a fuzzy duplicate (the parameter is optional, by default: `0.8`).
+
+As a result, there will be JSON in the form of an array of strings:
+```json
+[
+  "2 sentence",
+  "Another sentence"
+]
+```
+
+# 👹 Author
+
+Kinamoroll
+
+Blog: [https://t.me/Kinamoroll](https://t.me/Kinamoroll)
